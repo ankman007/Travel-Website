@@ -280,7 +280,6 @@ footer #partners #logos img {
 
 footer #company-info {
   display: flex;
-  justify-content: center;
   align-items: center;
   justify-content: space-around;
   padding: 40px 0;
@@ -288,7 +287,6 @@ footer #company-info {
 }
 
 footer #company-info section {
-  height: 140px;
   margin-bottom: 10px;
 }
 
@@ -301,29 +299,26 @@ footer #company-info section .title {
 
 footer #company-info section .title h4 {
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 1000;
 }
 
 footer #copyright {
-  width: 100%;
-  padding: 20px 0;
+  padding: 20px 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #031144;
+  color: #fafef0;
 }
 
-footer #copyright .section {
-  color: #3a5dd9;
+footer section {
+  padding: 15px;
 }
 
-footer #copyright .section a {
+a {
   text-decoration: none;
   color: #3a5dd9;
 }
-
-/*# sourceMappingURL=style.css.map */
 
 #contact {
   width: 100%;
